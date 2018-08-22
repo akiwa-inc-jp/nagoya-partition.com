@@ -17,7 +17,7 @@ get_header(); ?>
 <main>
 	<figure>
 		<div class="container clearfix">
-			<img id="top01" src="images/top01.png" width="117" height="145" alt="顧客満足度92％">
+			<img id="top01" src="<?php echo content_url() ?>/images/top01.png" width="117" height="145" alt="顧客満足度92％">
 			<img id="top02" src="<?php echo content_url() ?>/images/top02.png" width="663" height="26" alt="オフィス・工場・ショップ…、空間レイアウトを理想のカタチに！">
 		</div>
 		<ul>
@@ -145,7 +145,7 @@ get_header(); ?>
 		</div>
 		<div id="plan01" class="plan">
 			<div class="container">
-				<h3><img src="images/ttl01.png" width="257" height="27" alt="DESIGN PLAN 01">
+				<h3><img src="<?php echo content_url() ?>/images/ttl01.png" width="257" height="27" alt="DESIGN PLAN 01">
 				PANEL<span>基本パターン例</span></h3>
 				<p>お客様のご要望にあわせた細かなカスタマイズに対応しております。</p>
 			</div>
@@ -153,89 +153,89 @@ get_header(); ?>
 			<ul class="clearfix">
 				<li>
 					<p>D1</p>
-					<img src="images/panel_d01.png" alt="D1">
+					<img src="<?php echo content_url() ?>/images/panel_d01.png" alt="D1">
 				</li>
 				<li>
 					<p>D2</p>
-					<img src="images/panel_d02.png" alt="D2">
+					<img src="<?php echo content_url() ?>/images/panel_d02.png" alt="D2">
 				</li>
 				<li>
 					<p>D3</p>
-					<img src="images/panel_d03.png" alt="D3">
+					<img src="<?php echo content_url() ?>/images/panel_d03.png" alt="D3">
 				</li>
 				<li>
 					<p>P1</p>
-					<img src="images/panel_p01.png" alt="P1">
+					<img src="<?php echo content_url() ?>/images/panel_p01.png" alt="P1">
 				</li>
 				<li>
 					<p>P2</p>
-					<img src="images/panel_p02.png" alt="P2">
+					<img src="<?php echo content_url() ?>/images/panel_p02.png" alt="P2">
 				</li>
 				<li>
 					<p>P3</p>
-					<img src="images/panel_p03.png" alt="P3">
+					<img src="<?php echo content_url() ?>/images/panel_p03.png" alt="P3">
 				</li>
 				<li>
 					<p>P4</p>
-					<img src="images/panel_p04.png" alt="P4">
+					<img src="<?php echo content_url() ?>/images/panel_p04.png" alt="P4">
 				</li>
 				<li>
 					<p>P5</p>
-					<img src="images/panel_p05.png" alt="P5">
+					<img src="<?php echo content_url() ?>/images/panel_p05.png" alt="P5">
 				</li>
 				<li>
 					<p>P6</p>
-					<img src="images/panel_p06.png" alt="P6">
+					<img src="<?php echo content_url() ?>/images/panel_p06.png" alt="P6">
 				</li>
 				<li>
 					<p>P7</p>
-					<img src="images/panel_p07.png" alt="P7">
+					<img src="<?php echo content_url() ?>/images/panel_p07.png" alt="P7">
 				</li>
 				<li>
 					<p>P8</p>
-					<img src="images/panel_p08.png" alt="P8">
+					<img src="<?php echo content_url() ?>/images/panel_p08.png" alt="P8">
 				</li>
 				<li>
 					<p>P9</p>
-					<img src="images/panel_p09.png" alt="P9">
+					<img src="<?php echo content_url() ?>/images/panel_p09.png" alt="P9">
 				</li>
 				<li>
 					<p>P10</p>
-					<img src="images/panel_p10.png" alt="P10">
+					<img src="<?php echo content_url() ?>/images/panel_p10.png" alt="P10">
 				</li>
 				<li>
 					<p>P11</p>
-					<img src="images/panel_p11.png" alt="P11">
+					<img src="<?php echo content_url() ?>/images/panel_p11.png" alt="P11">
 				</li>
 				<li>
 					<p>P12</p>
-					<img src="images/panel_p12.png" alt="P12">
+					<img src="<?php echo content_url() ?>/images/panel_p12.png" alt="P12">
 				</li>
 				<li>
 					<p>P13</p>
-					<img src="images/panel_p13.png" alt="P13">
+					<img src="<?php echo content_url() ?>/images/panel_p13.png" alt="P13">
 				</li>
 			</ul>
 			<ul class="clearfix">
 				<li id="panel_e00">
 					<p>E0</p>
-					<img src="images/panel_e00.png" alt="E0">
+					<img src="<?php echo content_url() ?>/images/panel_e00.png" alt="E0">
 				</li>
 				<li id="panel_e01">
 					<p>E1</p>
-					<img src="images/panel_e01.png" alt="E1">
+					<img src="<?php echo content_url() ?>/images/panel_e01.png" alt="E1">
 				</li>
 				<li id="panel_e02">
 					<p>E2</p>
-					<img src="images/panel_e02.png" alt="E2">
+					<img src="<?php echo content_url() ?>/images/panel_e02.png" alt="E2">
 				</li>
 			</ul>
 			
-			<img src="images/txt03.png" width="789" height="108" alt="上記の基本パターン以外にもあらゆるカスタマイズが可能です。">
+			<img src="<?php echo content_url() ?>/images/txt03.png" width="789" height="108" alt="上記の基本パターン以外にもあらゆるカスタマイズが可能です。">
 		</div>
 		
 		<div id="plan02" class="plan container">
-			<h3><img src="images/ttl02.png" width="257" height="27" alt="DESIGN PLAN 02">
+			<h3><img src="<?php echo content_url() ?>/images/ttl02.png" width="257" height="27" alt="DESIGN PLAN 02">
 			COLOR<span>選べるカラー</span></h3>
 			
 			<p>どのような色や材質にも対応しております。実際にサンプル見本帳を見て確認して頂きます。</p>
@@ -243,85 +243,85 @@ get_header(); ?>
 			<h4>単色</h4>
 			<ul class="clearfix">
 				<li>
-					<img src="images/color-simple01.jpg" width="190" height="190" alt="MT001 ホワイト">
+					<img src="<?php echo content_url() ?>/images/color-simple01.jpg" width="190" height="190" alt="MT001 ホワイト">
 					<p>MT001 ホワイト</p>
 				</li>
 				<li>
-					<img src="images/color-simple02.jpg" width="190" height="190" alt="MT002 アイボリー">
+					<img src="<?php echo content_url() ?>/images/color-simple02.jpg" width="190" height="190" alt="MT002 アイボリー">
 					<p>MT002 アイボリー</p>
 				</li>
 				<li>
-					<img src="images/color-simple03.jpg" width="190" height="190" alt="MT003 グレー">
+					<img src="<?php echo content_url() ?>/images/color-simple03.jpg" width="190" height="190" alt="MT003 グレー">
 					<p>MT003 グレー</p>
 				</li>
 				<li>
-					<img src="images/color-simple04.jpg" width="190" height="190" alt="MT004 ブラック">
+					<img src="<?php echo content_url() ?>/images/color-simple04.jpg" width="190" height="190" alt="MT004 ブラック">
 					<p>MT004 ブラック</p>
 				</li>
 				<li>
-					<img src="images/color-simple05.jpg" width="190" height="190" alt="MT005 ブルー">
+					<img src="<?php echo content_url() ?>/images/color-simple05.jpg" width="190" height="190" alt="MT005 ブルー">
 					<p>MT005 ブルー</p>
 				</li>
 				<li>
-					<img src="images/color-simple06.jpg" width="190" height="190" alt="MT006 レッド">
+					<img src="<?php echo content_url() ?>/images/color-simple06.jpg" width="190" height="190" alt="MT006 レッド">
 					<p>MT006 レッド</p>
 				</li>
 				<li>
-					<img src="images/color-simple07.jpg" width="190" height="190" alt="MT007 マットグリーン">
+					<img src="<?php echo content_url() ?>/images/color-simple07.jpg" width="190" height="190" alt="MT007 マットグリーン">
 					<p>MT007 マットグリーン</p>
 				</li>
 				<li>
-					<img src="images/color-simple08.jpg" width="190" height="190" alt="MT008 グリーン">
+					<img src="<?php echo content_url() ?>/images/color-simple08.jpg" width="190" height="190" alt="MT008 グリーン">
 					<p>MT008 グリーン</p>
 				</li>
 				<li>
-					<img src="images/color-simple09.jpg" width="190" height="190" alt="MT009 イエロー">
+					<img src="<?php echo content_url() ?>/images/color-simple09.jpg" width="190" height="190" alt="MT009 イエロー">
 					<p>MT009 イエロー</p>
 				</li>
 				<li>
-					<img src="images/color-simple10.jpg" width="190" height="190" alt="MT010 オレンジ">
+					<img src="<?php echo content_url() ?>/images/color-simple10.jpg" width="190" height="190" alt="MT010 オレンジ">
 					<p>MT010 オレンジ</p>
 				</li>
 				<li>
-					<img src="images/color-simple11.jpg" width="190" height="190" alt="MT011 プレーンブラウン">
+					<img src="<?php echo content_url() ?>/images/color-simple11.jpg" width="190" height="190" alt="MT011 プレーンブラウン">
 					<p>MT011 プレーンブラウン</p>
 				</li>
 				<li>
-					<img src="images/color-simple12.jpg" width="190" height="190" alt="MT012 ブラウン">
+					<img src="<?php echo content_url() ?>/images/color-simple12.jpg" width="190" height="190" alt="MT012 ブラウン">
 					<p>MT012 ブラウン</p>
 				</li>
 			</ul>
 			<h4>木目</h4>
 			<ul class="clearfix">
 				<li>
-					<img src="images/color-wood01.jpg" width="190" height="190" alt="MV001-K">
+					<img src="<?php echo content_url() ?>/images/color-wood01.jpg" width="190" height="190" alt="MV001-K">
 					<p>MV001-K  アニグレ</p>
 				</li>
 				<li>
-					<img src="images/color-wood02.jpg" width="190" height="190" alt="MV002-K">
+					<img src="<?php echo content_url() ?>/images/color-wood02.jpg" width="190" height="190" alt="MV002-K">
 					<p>MV002-K  メイプル</p>
 				</li>
 				<li>
-					<img src="images/color-wood03.jpg" width="190" height="190" alt="MV003-K">
+					<img src="<?php echo content_url() ?>/images/color-wood03.jpg" width="190" height="190" alt="MV003-K">
 					<p>MV003-K  アニグレ</p>
 				</li>
 				<li>
-					<img src="images/color-wood04.jpg" width="190" height="190" alt="MV004-K">
+					<img src="<?php echo content_url() ?>/images/color-wood04.jpg" width="190" height="190" alt="MV004-K">
 					<p>MV004-K  バーチ</p>
 				</li>
 				<li>
-					<img src="images/color-wood05.jpg" width="190" height="190" alt="MV005-K">
+					<img src="<?php echo content_url() ?>/images/color-wood05.jpg" width="190" height="190" alt="MV005-K">
 					<p>MV005-K  マホガニー</p>
 				</li>
 				<li>
-					<img src="images/color-wood06.jpg" width="190" height="190" alt="MV006-K">
+					<img src="<?php echo content_url() ?>/images/color-wood06.jpg" width="190" height="190" alt="MV006-K">
 					<p>MV006-K  ウォルナット</p>
 				</li>
 			</ul>
 		</div>
 		
 		<div id="plan03" class="plan container">
-			<h3><img src="images/ttl03.png" width="257" height="27" alt="DESIGN PLAN 03">
+			<h3><img src="<?php echo content_url() ?>/images/ttl03.png" width="257" height="27" alt="DESIGN PLAN 03">
 			QUALITY<span>基本性能と品質</span></h3>
 			
 			<p>照かりを抑えたマット調の美しい木目！安心の国内生産。</p>
@@ -398,7 +398,7 @@ get_header(); ?>
 		</div>
 
 		<div id="plan04" class="plan container">
-			<h3><img src="images/ttl04.png" width="257" height="27" alt="DESIGN PLAN 04">
+			<h3><img src="<?php echo content_url() ?>/images/ttl04.png" width="257" height="27" alt="DESIGN PLAN 04">
 			MATERIAL<span>選べる素材</span></h3>
 			
 			<p>素材によって、空間のイメージや雰囲気は変わってきます。<br>
@@ -406,19 +406,19 @@ get_header(); ?>
 			
 			<ul class="clearfix">
 				<li>
-					<img src="images/material01.png" width="430" height="340" alt="Glass">
+					<img src="<?php echo content_url() ?>/images/material01.png" width="430" height="340" alt="Glass">
 					<p>圧倒的な解放感、明るさが魅力のパネル。</p>
 				</li>
 				<li>
-					<img src="images/material02.png" width="430" height="340" alt="Steel">
+					<img src="<?php echo content_url() ?>/images/material02.png" width="430" height="340" alt="Steel">
 					<p>遮音性・不燃性抜群のパネル。</p>
 				</li>
 				<li>
-					<img src="images/material03.png" width="430" height="340" alt="Aluminum">
+					<img src="<?php echo content_url() ?>/images/material03.png" width="430" height="340" alt="Aluminum">
 					<p>バリエーション豊富でリーズナブルなパネル。</p>
 				</li>
 				<li>
-					<img src="images/material04.png" width="430" height="340" alt="Sheet">
+					<img src="<?php echo content_url() ?>/images/material04.png" width="430" height="340" alt="Sheet">
 					<p>コストパフォーマンスに優れたパネル。</p>
 				</li>
 			</ul>
@@ -429,23 +429,23 @@ get_header(); ?>
 		<h4><span>オフィス・工場・ショップ・会議室・応接室・喫煙室・多目的スペース…、</span>空間レイアウトを理想のカタチに！</h4>
 		<div class="container clearfix">
 			<div class="info">
-				<img src="images/contact.png" width="552" height="251" alt="まずはお電話ください">
+				<img src="<?php echo content_url() ?>/images/contact.png" width="552" height="251" alt="まずはお電話ください">
 			</div>
 			<div class="btn">
-				<a class="tel" href="tel:0120-114-912"><img src="images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-				<a class="mail" href="contact.html"><img src="images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+				<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
+				<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 			</div>
 		</div>
 	</section>
 	
 	<section id="example01" class="container">
-		<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+		<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 		<span>名古屋パーテーション<span>の</span></span><strong>導入事例</strong></h2>
 		
 		<ul class="clearfix">
 			<li>
 				<h4>
-					<img src="images/maru01.png" width="80" height="80" alt="導入事例 1">
+					<img src="<?php echo content_url() ?>/images/maru01.png" width="80" height="80" alt="導入事例 1">
 					直線ライン（化粧鋼板）
 				</h4>
 				
@@ -474,12 +474,12 @@ get_header(); ?>
 					</tr>
 				</table>
 				
-				<img src="images/jirei01.png" width="300" height="440" alt="事例01">
-				<img src="images/jirei-img01.png" width="300" height="200" alt="事例3D01">
+				<img src="<?php echo content_url() ?>/images/jirei01.png" width="300" height="440" alt="事例01">
+				<img src="<?php echo content_url() ?>/images/jirei-img01.png" width="300" height="200" alt="事例3D01">
 			</li>
 			<li>
 				<h4>
-					<img src="images/maru02.png" width="80" height="80" alt="導入事例 2">
+					<img src="<?php echo content_url() ?>/images/maru02.png" width="80" height="80" alt="導入事例 2">
 					L型タイプ（化粧鋼板）
 				</h4>
 				
@@ -508,12 +508,12 @@ get_header(); ?>
 					</tr>
 				</table>
 				
-				<img src="images/jirei02.png" width="300" height="440" alt="事例02">
-				<img src="images/jirei-img02.png" width="300" height="200" alt="事例3D02">
+				<img src="<?php echo content_url() ?>/images/jirei02.png" width="300" height="440" alt="事例02">
+				<img src="<?php echo content_url() ?>/images/jirei-img02.png" width="300" height="200" alt="事例3D02">
 			</li>
 			<li>
 				<h4>
-					<img src="images/maru03.png" width="80" height="80" alt="導入事例 3">
+					<img src="<?php echo content_url() ?>/images/maru03.png" width="80" height="80" alt="導入事例 3">
 					コ型タイプ（化粧鋼板）
 				</h4>
 				
@@ -542,15 +542,15 @@ get_header(); ?>
 					</tr>
 				</table>
 				
-				<img src="images/jirei03.png" width="300" height="440" alt="事例03">
-				<img src="images/jirei-img03.png" width="300" height="200" alt="事例3D03">
+				<img src="<?php echo content_url() ?>/images/jirei03.png" width="300" height="440" alt="事例03">
+				<img src="<?php echo content_url() ?>/images/jirei-img03.png" width="300" height="200" alt="事例3D03">
 			</li>
 		</ul>
 	</section>
 	
 	<section id="voice">
 		<div class="container">
-			<h4><img src="images/txt04.png" width="263" height="44" alt="お客様からの声"></h4>
+			<h4><img src="<?php echo content_url() ?>/images/txt04.png" width="263" height="44" alt="お客様からの声"></h4>
 			
 			<ul class="clearfix">
 				<li>
@@ -578,7 +578,7 @@ get_header(); ?>
 	<section id="PS-banner">
 		<div class="container">
 			<h3>全国へパーテーション部材をお届けします！</h3>
-			<a href="https://partition-store.shop-pro.jp/" target="_blank"><img src="images/top-banner01.jpg" alt="パーテーションストア PARTITION STORE 全国の建設会社様・工務店様・設計会社様へ 詳しくはこちら"></a>
+			<a href="https://partition-store.shop-pro.jp/" target="_blank"><img src="<?php echo content_url() ?>/images/top-banner01.jpg" alt="パーテーションストア PARTITION STORE 全国の建設会社様・工務店様・設計会社様へ 詳しくはこちら"></a>
 			<h4>販売代理店様は随時募集しております</h4>
 			<p>施工マニュアルで安心施工を実現</p>
 		</div>
@@ -586,7 +586,7 @@ get_header(); ?>
 	
 	<section id="example02">
 		<div class="container">
-			<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+			<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 			<span>名古屋パーテーション<span>の</span></span><strong>施工事例</strong></h2>
 			<div class="sekoujirei-pdf">
 				<p>名古屋パーテーションの施工事例が印刷できます。</p>
@@ -597,24 +597,24 @@ get_header(); ?>
 		
 		
 		<ul class="clearfix">
-			<li><a href="images/sekou01.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou01.jpg" alt="施工事例01"></a></li>
-			<li><a href="images/sekou02.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou02.jpg" alt="施工事例02"></a></li>
-			<li><a href="images/sekou03.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou03.jpg" alt="施工事例03"></a></li>
-			<li><a href="images/sekou04.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou04.jpg" alt="施工事例04"></a></li>
-			<li><a href="images/sekou05.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou05.jpg" alt="施工事例05"></a></li>
-			<li><a href="images/sekou06.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou06.jpg" alt="施工事例06"></a></li>
-			<li><a href="images/sekou07.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou07.jpg" alt="施工事例07"></a></li>
-			<li><a href="images/sekou08.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou08.jpg" alt="施工事例08"></a></li>
-			<li><a href="images/sekou09.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou09.jpg" alt="施工事例09"></a></li>
-			<li><a href="images/sekou10.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou10.jpg" alt="施工事例10"></a></li>
-			<li><a href="images/sekou11.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou11.jpg" alt="施工事例11"></a></li>
-			<li><a href="images/sekou12.jpg" class="boxer" data-gallery="1Floor"><img src="images/sekou12.jpg" alt="施工事例12"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou01.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou01.jpg" alt="施工事例01"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou02.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou02.jpg" alt="施工事例02"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou03.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou03.jpg" alt="施工事例03"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou04.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou04.jpg" alt="施工事例04"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou05.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou05.jpg" alt="施工事例05"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou06.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou06.jpg" alt="施工事例06"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou07.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou07.jpg" alt="施工事例07"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou08.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou08.jpg" alt="施工事例08"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou09.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou09.jpg" alt="施工事例09"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou10.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou10.jpg" alt="施工事例10"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou11.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou11.jpg" alt="施工事例11"></a></li>
+			<li><a href="<?php echo content_url() ?>/images/sekou12.jpg" class="boxer" data-gallery="1Floor"><img src="<?php echo content_url() ?>/images/sekou12.jpg" alt="施工事例12"></a></li>
 		</ul>
 		
 	</section>
 	
 	<section id="flow" class="container">
-		<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+		<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 		<span>名古屋パーテーション<span>の</span></span><strong>施工までの流れ</strong></h2>
 		
 		<table>
@@ -623,7 +623,7 @@ get_header(); ?>
 				<td>下記の電話番号からお問い合わせください。女性スタッフがお客様のご要望をヒアリングし、概算見積りをその場でお伝え致します。「高さ」「長さ」「ドアの有無」をお教えください。</td>
 			</tr>
 			<tr>
-				<td class="arrow" colspan="2"><img src="images/arrow.png" width="27" height="14" alt="∨"></td>
+				<td class="arrow" colspan="2"><img src="<?php echo content_url() ?>/images/arrow.png" width="27" height="14" alt="∨"></td>
 			</tr>
 			<tr>
 				<th class="n2">現地の確認</th>
@@ -631,7 +631,7 @@ get_header(); ?>
 				また、サンプルパネル帳から色・部材・サイズを決めて頂きます。</td>
 			</tr>
 			<tr>
-				<td class="arrow" colspan="2"><img src="images/arrow.png" width="27" height="14" alt="∨"></td>
+				<td class="arrow" colspan="2"><img src="<?php echo content_url() ?>/images/arrow.png" width="27" height="14" alt="∨"></td>
 			</tr>
 			<tr>
 				<th class="n3">図面・見積提出</th>
@@ -639,7 +639,7 @@ get_header(); ?>
 				また工事プランに納得いかない場合は再度プランをご提出させて頂きます。</td>
 			</tr>
 			<tr>
-				<td class="arrow" colspan="2"><img src="images/arrow.png" width="27" height="14" alt="∨"></td>
+				<td class="arrow" colspan="2"><img src="<?php echo content_url() ?>/images/arrow.png" width="27" height="14" alt="∨"></td>
 			</tr>
 			<tr>
 				<th class="n4">施工日決定</th>
@@ -647,7 +647,7 @@ get_header(); ?>
 				<!--（ご注文から７日後（土日含まず）が目安となります）--></td>
 			</tr>
 			<tr>
-				<td class="arrow" colspan="2"><img src="images/arrow.png" width="27" height="14" alt="∨"></td>
+				<td class="arrow" colspan="2"><img src="<?php echo content_url() ?>/images/arrow.png" width="27" height="14" alt="∨"></td>
 			</tr>
 			<tr>
 				<th class="n5">工　　　事</th>
@@ -657,11 +657,11 @@ get_header(); ?>
 	</section>
 	
 	<section id="sekoustaff-kodawari" class="container">
-		<a href="sekouhouhou.html"><img src="images/staff-kodawari.jpg" alt="施工スタッフのこだわり"></a>
+		<a href="sekouhouhou.html"><img src="<?php echo content_url() ?>/images/staff-kodawari.jpg" alt="施工スタッフのこだわり"></a>
 	</section>
 	
 	<section id="faq" class="container">
-		<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+		<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 		<span>名古屋パーテーション<span>の</span></span><strong>Q&amp;A</strong></h2>
 		
 		<table>
@@ -774,24 +774,24 @@ get_header(); ?>
 	</section>
 	
 	<section id="justcut" class="container">
-		<img src="images/justcut.jpg" alt="パーテーション部材を事前に工場でカットしたジャストカット消音工事がおすすめ！！">
+		<img src="<?php echo content_url() ?>/images/justcut.jpg" alt="パーテーション部材を事前に工場でカットしたジャストカット消音工事がおすすめ！！">
 	</section>
 	
 	<section id="area" class="container">
-		<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+		<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 		<span>名古屋パーテーション<span>の</span></span><strong>サービスエリア</strong></h2>
 		<div id="area-image" width="975" height="629">
-			<a href="http://www.osaka-partition.com/lp/index.html" target="_blank"><img src="images/area01.png" alt="大阪パーテーション" id="area01"></a>
-			<a href="#"><img src="images/area02.png" alt="サービスエリア 名古屋パーテーション" id="area02"></a>
-			<a href="https://tokyo-partition.com/" target="_blank"><img src="images/area03.png" alt="東京パーテーション" id="area03"></a>
-			<img src="images/area.png" width="975" height="629" alt="サービスエリア" id="area-back">
+			<a href="http://www.osaka-partition.com/lp/index.html" target="_blank"><img src="<?php echo content_url() ?>/images/area01.png" alt="大阪パーテーション" id="area01"></a>
+			<a href="#"><img src="<?php echo content_url() ?>/images/area02.png" alt="サービスエリア 名古屋パーテーション" id="area02"></a>
+			<a href="https://tokyo-partition.com/" target="_blank"><img src="<?php echo content_url() ?>/images/area03.png" alt="東京パーテーション" id="area03"></a>
+			<img src="<?php echo content_url() ?>/images/area.png" width="975" height="629" alt="サービスエリア" id="area-back">
 		</div>
 	</section>
 	
 	<section id="company" class="clearfix">
 		<div class="img"></div>
 		<div class="txt">
-			<h4><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+			<h4><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 			会社概要</h4>
 			
 			<h5>「お客様に必要とされ、お客様の期待に応え続けます」</h5>
@@ -833,22 +833,22 @@ get_header(); ?>
 		<h4><span>オフィス・工場・ショップ・会議室・応接室・喫煙室・多目的スペース…、</span>空間レイアウトを理想のカタチに！</h4>
 		<div class="container clearfix">
 			<div class="info">
-				<img src="images/contact.png" width="552" height="251" alt="まずはお電話ください">
+				<img src="<?php echo content_url() ?>/images/contact.png" width="552" height="251" alt="まずはお電話ください">
 			</div>
 			<div class="btn">
-				<a class="tel" href="tel:0120-114-912"><img src="images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-				<a class="mail" href="contact.html"><img src="images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+				<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
+				<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 			</div>
 		</div>
 	</section>
 	<div class="toiawase-banner">
 		<div class="inner">
-			<img src="images/toiawase-back.png" class="toiawase-back" alt="ご相談・資料請求・お見積り無料！お気軽にご連絡ください！ 受付時間 平日 AM9:00~PM6:00">
-			<a href="tel:0120-114-912" class="toiawase-tel"><img src="images/toiawase-tel.png" alt="0120-114-912"></a>
-			<a  href="contact.html" class="toiawase-mail"><img src="images/toiawase-mail.png" alt="メールでのお問い合わせはこちら!! 24時間無料受付"></a>
+			<img src="<?php echo content_url() ?>/images/toiawase-back.png" class="toiawase-back" alt="ご相談・資料請求・お見積り無料！お気軽にご連絡ください！ 受付時間 平日 AM9:00~PM6:00">
+			<a href="tel:0120-114-912" class="toiawase-tel"><img src="<?php echo content_url() ?>/images/toiawase-tel.png" alt="0120-114-912"></a>
+			<a  href="contact.html" class="toiawase-mail"><img src="<?php echo content_url() ?>/images/toiawase-mail.png" alt="メールでのお問い合わせはこちら!! 24時間無料受付"></a>
 		</div>
 	</div>
-	<a href="#" class="top-back"><img src="images/top-back.png" alt="ページのトップへ戻る"></a>
+	<a href="#" class="top-back"><img src="<?php echo content_url() ?>/images/top-back.png" alt="ページのトップへ戻る"></a>
 </main><!-- #main -->
 
 <?php get_footer();
