@@ -18,20 +18,20 @@ get_header(); ?>
 	<figure>
 		<div class="container clearfix">
 			<img id="top01" src="images/top01.png" width="117" height="145" alt="顧客満足度92％">
-			<img id="top02" src="images/top02.png" width="663" height="26" alt="オフィス・工場・ショップ…、空間レイアウトを理想のカタチに！">
+			<img id="top02" src="<?php echo content_url() ?>/images/top02.png" width="663" height="26" alt="オフィス・工場・ショップ…、空間レイアウトを理想のカタチに！">
 		</div>
 		<ul>
-			<li class="active" style="background-image:url(images/slide01.jpg)"></li>
-			<li style="background-image:url(images/slide02.jpg)"></li>
-			<li style="background-image:url(images/slide03.jpg)"></li>
-			<!--<li><a href="#reuse" style="background-image:url(images/slide-reuse.jpg)">業界初！！！　名古屋パーテーションのリユース</a></li>-->
-			<li><a href="#PS-banner" style="background-image:url(images/top-banner04.jpg)">パーテーションストア 施工型パーテーションが1パネル14,500円から 詳しくはこちら</a></li>
-			<li style="background-image:url(images/summer-campain.png)"></li>
+			<li class="active" style="background-image:url(<?php echo content_url() ?>/images/slide01.jpg)"></li>
+			<li style="background-image:url(<?php echo content_url() ?>/images/slide02.jpg)"></li>
+			<li style="background-image:url(<?php echo content_url() ?>/images/slide03.jpg)"></li>
+			<!--<li><a href="#reuse" style="background-image:url(<?php echo content_url() ?>/images/slide-reuse.jpg)">業界初！！！　名古屋パーテーションのリユース</a></li>-->
+			<li><a href="#PS-banner" style="background-image:url(<?php echo content_url() ?>/images/top-banner04.jpg)">パーテーションストア 施工型パーテーションが1パネル14,500円から 詳しくはこちら</a></li>
+			<li style="background-image:url(<?php echo content_url() ?>/images/summer-campain.png)"></li>
 		</ul>
 	</figure>
 	
 	<section id="intro01" class="container">
-  <h4><img src="images/txt01.png" width="572" height="54" alt="レイアウトプラン無料作成します！"></h4>
+  <h4><img src="<?php echo content_url() ?>/images/txt01.png" width="572" height="54" alt="レイアウトプラン無料作成します！"></h4>
 		<p>名古屋パーテーションはオフィス・工場の空間レイアウトを無料で作成いたします。<br>
 		お客様のご要望や空間に合わせたプランで、最適なご提案をさせていただきます。</p>
 	</section>
@@ -46,8 +46,8 @@ get_header(); ?>
 		</ul>
 		
 		<div class="btn">
-			<a class="tel" href="tel:0120-114-912"><img src="images/tel02.png" width="341" height="112" alt="0120-114-912"></a>
-			<a class="mail" href="contact.html"><img src="images/mail02.png" width="361" height="134" alt="ご質問・ご相談はこちら"></a>
+			<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel02.png" width="341" height="112" alt="0120-114-912"></a>
+			<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail02.png" width="361" height="134" alt="ご質問・ご相談はこちら"></a>
 		</div>
 	</section>
 	
@@ -68,7 +68,7 @@ get_header(); ?>
 	
 	<section id="intro04">
 		<div class="container">
-			<h4><img src="images/txt02.png" width="920" height="77" alt="名古屋パーテーションが選ばれる理由"></h4>
+			<h4><img src="<?php echo content_url() ?>/images/txt02.png" width="920" height="77" alt="名古屋パーテーションが選ばれる理由"></h4>
 			
 			<ul class="fixHeight clearfix">
 				<li>
@@ -113,12 +113,12 @@ get_header(); ?>
 	
 	<!--<section id="reuse">
 		<div class="container">
-			<h4><img src="images/reuse-top.png" alt="業界初！！！ 名古屋パーテーションのリユース"></h4>
+			<h4><img src="<?php echo content_url() ?>/images/reuse-top.png" alt="業界初！！！ 名古屋パーテーションのリユース"></h4>
 			<h5>新規で施工型パーテーションをお考えのお客様へ</h5>
 			<div class="reuse-sec01">
 				<p>名古屋パーテーションで施工した商品につきましては、<br>処分費がかからず下取りがあるため、<br>事務所移転や撤去がある場合、無駄な経費をカットできます！<br>名古屋パーテーションが選ばれる理由の一つにリユースがあります。※</p>
 			</div>
-			<img src="images/tekkyo01.png" class="tekkyo01 clearfix" alt="パーテーション撤去処分の際にかかる費用 他社で施工した場合、解体費+処分費+諸経費のお見積もりとなるところ、名古屋パーテーションで施工した場合、解体費+諸経費-下取り費となるため撤去処分にかかる経費をグッと抑えることができます。">
+			<img src="<?php echo content_url() ?>/images/tekkyo01.png" class="tekkyo01 clearfix" alt="パーテーション撤去処分の際にかかる費用 他社で施工した場合、解体費+処分費+諸経費のお見積もりとなるところ、名古屋パーテーションで施工した場合、解体費+諸経費-下取り費となるため撤去処分にかかる経費をグッと抑えることができます。">
 			<a href="https://partition-store.shop-pro.jp/" target="_blank" class="reuse-otoiawase">リユース商品をお考えのお客様はこちらへ</a>
 			<div class="reuse-sec01">
 				<p>事務所移転や撤去・解体の際にもお電話一つで即対応致します！<br>リユースがある名古屋パーテーションに施工後のメンテナンスもお任せください！！</p>
@@ -128,11 +128,11 @@ get_header(); ?>
 			<h4><span>オフィス・工場・ショップ・会議室・応接室・喫煙室・多目的スペース…、</span>空間レイアウトを理想のカタチに！</h4>
 			<div class="container clearfix">
 				<div class="info">
-					<img src="images/contact.png" width="552" height="251" alt="まずはお電話ください">
+					<img src="<?php echo content_url() ?>/images/contact.png" width="552" height="251" alt="まずはお電話ください">
 				</div>
 				<div class="btn">
-					<a class="tel" href="tel:0120-114-912"><img src="images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-					<a class="mail" href="contact.html"><img src="images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+					<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
+					<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 				</div>
 			</div>
 		</section>
@@ -140,7 +140,7 @@ get_header(); ?>
 	
 	<section id="plan">
 		<div class="container">
-			<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+			<h2><img src="<?php echo content_url() ?>/images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
 			<span>名古屋パーテーション<span>の</span></span><strong>デザインプラン</strong></h2>
 		</div>
 		<div id="plan01" class="plan">
