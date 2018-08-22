@@ -18,6 +18,11 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" href="<?php echo content_url() ?>/themes/nagoya-partition/js/jquery.fs.boxer.min.css">
+<script type="text/javascript" src="<?php echo content_url() ?>/themes/nagoya-partition/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="<?php echo content_url() ?>/themes/nagoya-partition/js/jquery.fs.boxer.min.js"></script>
+<script type="text/javascript" src="<?php echo content_url() ?>/themes/nagoya-partition/js/Scripts.js"></script>
+<script type="text/javascript" src="<?php echo content_url() ?>/themes/nagoya-partition/js/fixHeight.js"></script>
 
 <?php wp_head(); ?>
 </head>
