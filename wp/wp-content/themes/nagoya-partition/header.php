@@ -13,10 +13,10 @@
  */
 
 ?><!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js no-svg">
+<html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640, maximum-scale=1.0, user-scalable=yes">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" type="text/css" href="<?php echo content_url() ?>/themes/nagoya-partition/js/jquery.fs.boxer.min.css">
 <script type="text/javascript" src="<?php echo content_url() ?>/themes/nagoya-partition/js/jquery-2.1.0.min.js"></script>
