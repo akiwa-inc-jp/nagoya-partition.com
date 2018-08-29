@@ -590,7 +590,7 @@ get_header(); ?>
 			<span>名古屋パーテーション<span>の</span></span><strong>施工事例</strong></h2>
 			<div class="sekoujirei-pdf">
 				<p>名古屋パーテーションの施工事例が印刷できます。</p>
-				<a href="sekoujirei.pdf" target="_blank">PDFの印刷はこちら(サイズ:10.3MB)</a>
+				<a href="<?php echo content_url() ?>/downloads/sekoujirei.pdf" target="_blank">PDFの印刷はこちら(サイズ:10.3MB)</a>
 			</div>
 		</div>
 		
@@ -690,7 +690,7 @@ get_header(); ?>
 				<td class="qst">天井の設置も可能でしょうか？</td>
 			</tr>
 			<tr>
-				<td class="ans">短辺の長さが3000㎜までなら、設置は可能です。</td>
+				<td class="ans">設置は可能です。天井の仕様もご提案させて頂きます。また 照明・空調も施工させて頂きます。</td>
 			</tr>
 		</table>
 		
