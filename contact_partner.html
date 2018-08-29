@@ -1,0 +1,260 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ja">
+<!--<![endif]-->
+<head>
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-WRBF79');</script>
+
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640, maximum-scale=1.0, user-scalable=yes">
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="scss/style.scss" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style_partner.css" />
+<link rel="stylesheet" type="text/css" href="js/jquery.fs.boxer.min.css">
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.fs.boxer.min.js"></script>
+<script type="text/javascript" src="js/Scripts.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/form_partner.js"></script>
+
+<meta name="robots" content="index,follow">
+
+</head>
+
+<body>
+
+<header>
+	<div class="container clearfix">
+		<h1><a href="./"><img src="images/logo.png" width="268" height="48" alt="名古屋パーテーション"></a></h1>
+		<a class="tel" href="tel:0120114912"><img src="images/tel.png" width="177" height="18" alt="TEL:0120-114-912"></a>
+		<a class="mail" href="contact.html"><img src="images/mail.png" width="130" height="29" alt="お問合せ"></a>
+		<span id="btn_menu"><i></i><span></span></span>
+		
+		<nav>
+			<ul>
+				<li><a href="./">TOP</a></li>
+				<li><a href="./#plan">デザインプラン</a></li>
+				<li><a href="./#example01">導入事例</a></li>
+				<li><a href="./#example02">施工事例</a></li>
+				<li><a href="./#flow">施工の流れ</a></li>
+				<li><a href="./#area">サービスエリア</a></li>
+				<li><a href="./#company">会社概要</a></li>
+				<li><a href="contact.html">お問合せ</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<main>
+
+	<section id="form" class="container partner_contact">
+		<h2><img src="images/mark02.png" width="130" height="13" alt="NAGOYA PARTITION">
+		<span>名古屋パーテーション<span>の</span></span><strong>提携施工店募集！</strong></h2>
+		<h4>より良い商品をまだ見ぬ全国のお客様へ届けるために！</h4>
+		<p class="partner_text">名古屋パーテーションでは、<br class="sp_only">お客様の安心と満足を第一に考えたサービスと<br class="sp_only">取付施工を行っていただける<br><strong>GCパートナー（提携施工店様）</strong>を全国に広く募集をします。</p>
+		<p class="partner_text">お客様の安心と満足を満たすために、<br class="sp_only">私たちと一緒に永続する事業へと発展させていきませんか！<br>企業の方（木工業者様、建具業者様）、個人事業の方からの<br class="sp_only">ご応募を心よりお待ちしております。</p>
+		<div id="partner_btn_about"><a href="./gc_partner_sample-01.pdf" target="_blank">GCパートナー<span>とは</span></a></div>
+		<h5>お電話でのお問い合わせ</h5>
+		<p id="partner_tel"><a href="tel:0522656455">tel.052-265-6455</a></p>
+		<p class="partner_text">（受付時間／24時間）お気軽にお問い合わせください。</p>
+		<h5>メールでのお問い合わせ</h5>
+		<p class="partner_text_black">下記項目を記入して、送信してください。</p>
+
+		<form class="validatorForm" action="send_partner.php" method="post" name="frm">
+			<table>
+				<tr>
+					<th>会社名・屋号</th>
+					<td><input type="text" name="company"></td>
+				</tr>
+				<tr>
+					<th class="must">担当者名</th>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<th class="must">ふりがな</th>
+					<td><input type="text" name="name_kana"></td>
+				</tr>
+				<tr>
+					<th class="must">郵便番号</th>
+					<td><input type="text" name="zip"></td>
+				</tr>
+				<tr>
+					<th class="must">住所（都道府県）</th>
+					<td>
+						<select name="pref">
+							<option value="">お選びください</option>
+							<optgroup label="北海道">
+								<option value="北海道">北海道</option>
+							</optgroup>
+							<optgroup label="東北">
+								<option value="青森県">青森県</option>
+								<option value="岩手県">岩手県</option>
+								<option value="宮城県">宮城県</option>
+								<option value="秋田県">秋田県</option>
+								<option value="山形県">山形県</option>
+								<option value="福島県">福島県 </option>
+							</optgroup>
+							<optgroup label="関東">
+								<option value="茨城県">茨城県</option>
+								<option value="栃木県">栃木県</option>
+								<option value="群馬県">群馬県</option>
+								<option value="埼玉県">埼玉県</option>
+								<option value="千葉県">千葉県</option>
+								<option value="東京都">東京都</option>
+								<option value="神奈川県">神奈川県</option>
+							</optgroup>
+							<optgroup label="中部">
+								<option value="山梨県">山梨県</option>
+								<option value="長野県">長野県</option>
+								<option value="新潟県">新潟県</option>
+								<option value="富山県">富山県</option>
+								<option value="石川県">石川県</option>
+								<option value="福井県">福井県</option>
+								<option value="岐阜県">岐阜県</option>
+								<option value="静岡県">静岡県</option>
+								<option value="愛知県">愛知県</option>
+							</optgroup>
+							<optgroup label="近畿">
+								<option value="三重県">三重県</option>
+								<option value="滋賀県">滋賀県</option>
+								<option value="京都府">京都府</option>
+								<option value="大阪府">大阪府</option>
+								<option value="兵庫県">兵庫県</option>
+								<option value="奈良県">奈良県</option>
+								<option value="和歌山県">和歌山県</option>
+							</optgroup>
+							<optgroup label="中国">
+								<option value="鳥取県">鳥取県</option>
+								<option value="島根県">島根県</option>
+								<option value="岡山県">岡山県</option>
+								<option value="広島県">広島県</option>
+								<option value="山口県">山口県</option>
+							</optgroup>
+							<optgroup label="四国">
+								<option value="徳島県">徳島県</option>
+								<option value="香川県">香川県</option>
+								<option value="愛媛県">愛媛県</option>
+								<option value="高知県">高知県</option>
+							</optgroup>
+							<optgroup label="九州・沖縄">
+								<option value="福岡県">福岡県</option>
+								<option value="佐賀県">佐賀県</option>
+								<option value="長崎県">長崎県</option>
+								<option value="熊本県">熊本県</option>
+								<option value="大分県">大分県</option>
+								<option value="宮崎県">宮崎県</option>
+								<option value="鹿児島県">鹿児島県</option>
+								<option value="沖縄県">沖縄県</option>
+							</optgroup>
+						</select><br>
+					</td>
+				</tr>
+				<tr>
+					<th class="must">住所（市区町村）</th>
+					<td>
+						<input type="text" name="address1">
+					</td>
+				</tr>
+				<tr>
+					<th class="must">住所（番地・建物）</th>
+					<td>
+						<input type="text" name="address2">
+					</td>
+				</tr>
+				<tr>
+					<th class="must">TEL</th>
+					<td><input type="text" name="tel"></td>
+				</tr>
+				<tr>
+					<th>FAX</th>
+					<td><input type="text" name="fax"></td>
+				</tr>
+				<tr>
+					<th>日中連絡可能な電話番号</th>
+					<td><input type="text" name="tel_time"></td>
+				</tr>
+				<tr>
+					<th class="must">メールアドレス</th>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<th class="must">メールアドレス（確認）</th>
+					<td><input type="text" name="email_confirm"></td>
+				</tr>
+				<tr>
+					<th>サイトURL</th>
+					<td><input type="text" name="url"></td>
+				</tr>
+				<tr>
+					<th class="must">施工可能エリア</th>
+					<td><input type="text" name="area"></td>
+				</tr>
+				<tr>
+					<th>その他<br class="pc">（質問・補足等）</th>
+					<td>
+						<textarea name="content"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th></th>
+					<td>
+						<input type="submit" value="送信する">
+						
+						<p class="notice">このフォームにご入力して頂きます個人情報は、お問合せへの対応に必要な範囲のみに使用し、<br class="pc">
+						無断で他の目的に使用することはありません。</p>
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+	</section>
+	
+</main>
+
+<footer>
+	<div class="container">
+		<a class="logo" href="./"><img src="images/logo02.jpg" width="372" height="74" alt="名古屋パーテーション"></a>
+		<p>あきわ株式会社<br>
+		〒455-0831　愛知県名古屋市港区十一屋二丁目411-1<br>
+		TEL.052-381-4206　FAX.052-381-4207</p>
+		
+		<p id="copy">copyright(C)Nagoya Partition co., ltd. all rights reserved.</p>
+	</div>
+</footer>
+
+</body>
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRBF79"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+</html>
