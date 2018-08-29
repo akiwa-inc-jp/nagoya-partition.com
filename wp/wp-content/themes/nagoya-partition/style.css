@@ -24,12 +24,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 html {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  color: #333;
-  font-size: 14px;
-  line-height: 1.6; }
+  color: #333; }
 
 html {
   line-height: 1; }
+
+html {
+  font-size: 14px;
+  line-height: 1.6; }
 
 article, aside, footer, header, nav, section {
   display: block; }
@@ -461,34 +463,6 @@ dd {
   margin: 0 1.5em 1.5em; }
 
 /*--------------------------------------------------------------
-9.0 Tables
---------------------------------------------------------------*/
-table {
-  border-collapse: collapse;
-  margin: 0 0 1.5em;
-  width: 100%; }
-
-thead th {
-  border-bottom: 2px solid #bbb;
-  padding-bottom: 0.5em; }
-
-th {
-  padding: 0.4em;
-  text-align: left; }
-
-tr {
-  border-bottom: 1px solid #eee; }
-
-td {
-  padding: 0.4em; }
-
-th:first-child, td:first-child {
-  padding-left: 0; }
-
-th:last-child, td:last-child {
-  padding-right: 0; }
-
-/*--------------------------------------------------------------
 10.0 Links
 --------------------------------------------------------------*/
 a {
@@ -916,7 +890,7 @@ main {
     width: 100%;
     bottom: 0;
     left: 0;
-    z-index: 1000; }
+    z-index: 50; }
     main .toiawase-banner:before {
       content: '';
       width: 100%;
@@ -951,7 +925,99 @@ main {
     position: fixed;
     bottom: 19px;
     right: 203px;
-    z-index: 1000; }
+    z-index: 60; }
+
+/*--------------------------------------------------------------
+	お問い合わせフォーム
+--------------------------------------------------------------*/
+#contact .inner {
+  max-width: 980px;
+  margin: 0 auto; }
+  #contact .inner h2 {
+    margin-bottom: 10px; }
+  #contact .inner h4 {
+    color: #630;
+    font-weight: 700;
+    text-align: center; }
+  #contact .inner > p {
+    margin: 60px 0;
+    text-align: center; }
+    #contact .inner > p span {
+      color: #F60; }
+  #contact .inner table {
+    width: 100%; }
+    #contact .inner table th {
+      width: 260px;
+      padding: 20px 10px;
+      vertical-align: top; }
+    #contact .inner table th.must::after {
+      content: "※";
+      display: block;
+      float: right;
+      color: #F60; }
+    #contact .inner table td {
+      padding: 10px 0; }
+      #contact .inner table td input[type="submit"] {
+        padding: 0;
+        width: 100%;
+        border: none;
+        background: #630;
+        color: #fff;
+        font-size: 1.71429rem;
+        line-height: 50px;
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        cursor: pointer;
+        transition: 0.3s; }
+        #contact .inner table td input[type="submit"]:hover {
+          opacity: 0.8; }
+    #contact .inner table td.zipcode p {
+      display: inline-block; }
+      #contact .inner table td.zipcode p input {
+        width: 8em; }
+    #contact .inner table td.zipcode p.hyphen {
+      width: 20px; }
+    #contact .inner table td.date input {
+      width: 8em; }
+    #contact .inner table td.size p {
+      margin: 0 5px;
+      display: inline-block;
+      vertical-align: middle; }
+      #contact .inner table td.size p span {
+        display: inline-block; }
+        #contact .inner table td.size p span input {
+          width: 8em;
+          margin: 0 5px; }
+    #contact .inner table td.chousa-date p.caption {
+      display: block;
+      margin-bottom: 25px; }
+    #contact .inner table td.chousa-date p {
+      display: inline-block; }
+      #contact .inner table td.chousa-date p span {
+        display: inline-block; }
+        #contact .inner table td.chousa-date p span input {
+          width: 8em; }
+    #contact .inner table td.chousa-date div.day01, #contact .inner table td.chousa-date div.day02 {
+      margin-bottom: 20px; }
+      #contact .inner table td.chousa-date div.day01 p, #contact .inner table td.chousa-date div.day02 p {
+        float: left;
+        margin: 0 5px;
+        line-height: 42px; }
+        #contact .inner table td.chousa-date div.day01 p span input, #contact .inner table td.chousa-date div.day02 p span input {
+          height: 42px; }
+    #contact .inner table td.price span {
+      float: left;
+      display: inline-block; }
+    #contact .inner table td.price p {
+      float: left;
+      display: inline-block;
+      margin: 0 5px;
+      line-height: 39px; }
+    #contact .inner table td.syousai p {
+      margin-top: 20px; }
+  #contact .inner hr {
+    border-bottom: dashed 1px #666;
+    background-color: #fff;
+    height: 0; }
 
 @media screen and (max-width: 980px) {
   main .toiawase-banner .inner {
@@ -974,6 +1040,9 @@ main {
   main .top-back {
     bottom: 5%;
     right: 2%; } }
+@media screen and (max-width: 768px) {
+  main .top-back {
+    bottom: 2%; } }
 @media screen and (max-width: 640px) {
   main .toiawase-banner {
     display: none !important; } }
@@ -1348,7 +1417,7 @@ main #plan .plan#plan03 {
 /*-----施工スタッフのこだわり-----*/
 #quality_box {
   position: relative;
-  width: 903px;
+  width: 973px;
   height: auto;
   padding: 18px 30px 13px 30px;
   margin-left: 1px;
@@ -1363,7 +1432,7 @@ main #plan .plan#plan03 {
       position: absolute;
       top: -12px;
       left: 30px;
-      width: 220px;
+      width: 252px;
       height: 30px;
       font-size: 1.4285714285714rem;
       font-weight: bold;
@@ -1385,7 +1454,7 @@ main #plan .plan#plan03 table {
     color: #333;
     font-weight: normal;
     line-height: 1;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
     text-align: left;
     vertical-align: middle;
     border-top: 1px solid #999;
@@ -1552,7 +1621,7 @@ main #flow {
     color: #630; }
     main #flow table th {
       text-align: right;
-      width: 200px;
+      width: 280px;
       padding-right: 80px;
       background: url(../../images/kaku01.png) right center no-repeat;
       vertical-align: middle;
@@ -1797,6 +1866,7 @@ footer {
     float: right;
     margin-left: 30px; }
 
+/**/
 /*----------~700px----------*/
 @media screen and (max-width: 700px) {
   body {
