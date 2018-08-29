@@ -31,7 +31,7 @@
 	<header>
 		<div class="container clearfix">
 				<h1>名古屋パーテーション｜愛知・岐阜・三重・静岡エリアのオフィス、工場、ショップのパーテーション（パーティション）・間仕切りの設計施工・設置</h1>
-				<h2><a href="#"><img src="<?php echo content_url() ?>/images/logo.png" width="268" height="48" alt="名古屋パーテーション"></a></h2>
+				<h2><a href="<?php echo home_url() ?>"><img src="<?php echo content_url() ?>/images/logo.png" width="268" height="48" alt="名古屋パーテーション"></a></h2>
 				<div class="h-right">
 					<a class="tel" href="tel:0120114912"><img src="<?php echo content_url() ?>/images/tel.png" width="177" height="18" alt="TEL:0120-114-912"></a>
 					<a class="mail" href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/mail.png" width="130" height="29" alt="お問合せ"></a>
