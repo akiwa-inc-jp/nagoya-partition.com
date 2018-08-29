@@ -42,6 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
+  <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
 	<header>
 		<div class="container clearfix">
 				<h1>名古屋パーテーション｜愛知・岐阜・三重・静岡エリアのオフィス、工場、ショップのパーテーション（パーティション）・間仕切りの設計施工・設置</h1>
