@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.nagoya-partition\.com
+RewriteRule ^(.*)$ https://nagoya-partition.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index\.(html)
+RewriteRule ^(.*)index\.(html)$ https://nagoya-partition.com/$1 [R=301,L]
