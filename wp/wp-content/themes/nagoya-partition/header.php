@@ -38,12 +38,12 @@
 					<span id="btn_menu"><i></i><span></span></span>
 					<nav>
 						<ul>
-							<li><a href="#">TOP</a></li>
+							<li><a href="<?php echo home_url() ?>">TOP</a></li>
 							<li><a href="#plan">デザインプラン</a></li>
 							<li><a href="#example01">導入事例</a></li>
 							<li><a href="#example02">施工事例</a></li>
 							<li><a href="#flow">施工までの流れ</a></li>
-							<li><a href="sekouhouhou.html">施工スタッフのこだわり</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_path( 'sekoustaff' )->ID ); ?>">施工スタッフのこだわり</a></li>
 							<li><a href="#area">サービスエリア</a></li>
 							<li><a href="#company">会社概要</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>">お問合せ</a></li>
@@ -52,12 +52,12 @@
 					<!-- SP用ドロップダウンメニュー -->
 					<nav class="nav-sp">
 						<ul>
-							<li><a href="#">TOP</a></li>
+							<li><a href="<?php echo home_url() ?>">TOP</a></li>
 							<li><a href="#plan">デザインプラン</a></li>
 							<li><a href="#example01">導入事例</a></li>
 							<li><a href="#example02">施工事例</a></li>
 							<li><a href="#flow">施工までの流れ</a></li>
-							<li><a href="sekouhouhou.html">施工スタッフのこだわり</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_path( 'sekoustaff' )->ID ); ?>">施工スタッフのこだわり</a></li>
 							<li><a href="#area">サービスエリア</a></li>
 							<li><a href="#company">会社概要</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>">お問合せ</a></li>

@@ -47,7 +47,7 @@ get_header(); ?>
 		
 		<div class="btn">
 			<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel02.png" width="341" height="112" alt="0120-114-912"></a>
-			<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail02.png" width="361" height="134" alt="ご質問・ご相談はこちら"></a>
+			<a class="mail" href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/mail02.png" width="361" height="134" alt="ご質問・ご相談はこちら"></a>
 		</div>
 	</section>
 	
@@ -132,7 +132,7 @@ get_header(); ?>
 				</div>
 				<div class="btn">
 					<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-					<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+					<a class="mail" href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 				</div>
 			</div>
 		</section>
@@ -433,7 +433,7 @@ get_header(); ?>
 			</div>
 			<div class="btn">
 				<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-				<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+				<a class="mail" href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 			</div>
 		</div>
 	</section>
@@ -657,7 +657,7 @@ get_header(); ?>
 	</section>
 	
 	<section id="sekoustaff-kodawari" class="container">
-		<a href="sekouhouhou.html"><img src="<?php echo content_url() ?>/images/staff-kodawari.jpg" alt="施工スタッフのこだわり"></a>
+		<a href="<?php echo get_permalink( get_page_by_path( 'sekoustaff' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/staff-kodawari.jpg" alt="施工スタッフのこだわり"></a>
 	</section>
 	
 	<section id="faq" class="container">
@@ -837,7 +837,7 @@ get_header(); ?>
 			</div>
 			<div class="btn">
 				<a class="tel" href="tel:0120-114-912"><img src="<?php echo content_url() ?>/images/tel03.png" width="399" height="73" alt="0120-114-912"></a>
-				<a class="mail" href="contact.html"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
+				<a class="mail" href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>"><img src="<?php echo content_url() ?>/images/mail03.png" width="416" height="179" alt="メールでのお問い合わせはこちら"></a>
 			</div>
 		</div>
 	</section>
@@ -845,7 +845,7 @@ get_header(); ?>
 		<div class="inner">
 			<img src="<?php echo content_url() ?>/images/toiawase-back.png" class="toiawase-back" alt="ご相談・資料請求・お見積り無料！お気軽にご連絡ください！ 受付時間 平日 AM9:00~PM6:00">
 			<a href="tel:0120-114-912" class="toiawase-tel"><img src="<?php echo content_url() ?>/images/toiawase-tel.png" alt="0120-114-912"></a>
-			<a  href="contact.html" class="toiawase-mail"><img src="<?php echo content_url() ?>/images/toiawase-mail.png" alt="メールでのお問い合わせはこちら!! 24時間無料受付"></a>
+			<a  href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>" class="toiawase-mail"><img src="<?php echo content_url() ?>/images/toiawase-mail.png" alt="メールでのお問い合わせはこちら!! 24時間無料受付"></a>
 		</div>
 	</div>
 	<a href="#" class="top-back"><img src="<?php echo content_url() ?>/images/top-back.png" alt="ページのトップへ戻る"></a>
