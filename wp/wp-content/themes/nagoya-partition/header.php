@@ -46,7 +46,7 @@
 							<li><a href="sekouhouhou.html">施工スタッフのこだわり</a></li>
 							<li><a href="#area">サービスエリア</a></li>
 							<li><a href="#company">会社概要</a></li>
-							<li><a href="contact.html">お問合せ</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>">お問合せ</a></li>
 						</ul>
 					</nav>
 					<!-- SP用ドロップダウンメニュー -->
@@ -60,7 +60,7 @@
 							<li><a href="sekouhouhou.html">施工スタッフのこだわり</a></li>
 							<li><a href="#area">サービスエリア</a></li>
 							<li><a href="#company">会社概要</a></li>
-							<li><a href="contact.html">お問合せ</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_path( 'contact' )->ID ); ?>">お問合せ</a></li>
 						</ul>
 					</nav>
 					<!-- End SP用ドロップダウンメニュー -->

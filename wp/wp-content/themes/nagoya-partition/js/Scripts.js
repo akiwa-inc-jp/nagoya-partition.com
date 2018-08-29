@@ -32,14 +32,6 @@ $(document).ready(function() {
 		top: 60
 	});
 	
-	/*モーダル表示時に問い合わせバナーを非表示*/
-	$(".boxer").click({
-		$(".toiawase-banner").css("display","none");
-	});
-	$(".boxer-close").click({
-		$(".toiawase-banner").css("display","block");
-	});
-	
 	$("#btn_menu").unbind("click").click(function(){
 		$(this).toggleClass("close");
 		$("nav").toggleClass("active");

@@ -563,6 +563,16 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
+/*
+* phpファイルを読み込むショートコード
+*/
+function content_url_echo_php( $atts ){
+  ob_start();
+  get_template_part('template-parts/echo/wp-content-url'); // template-parts/exho/wp-content-url.phpを読みこみ
+  return ob_get_clean();
+}
+add_shortcode( 'content_url_echo', 'content_url_echo_php' );
+
 /**
  * Implement the Custom Header feature.
  */
