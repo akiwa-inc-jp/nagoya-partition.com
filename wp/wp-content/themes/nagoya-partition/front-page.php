@@ -575,14 +575,14 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section id="PS-banner">
+	<!--<section id="PS-banner">
 		<div class="container">
 			<h3>全国へパーテーション部材をお届けします！</h3>
 			<a href="https://partition-store.shop-pro.jp/" target="_blank"><img src="<?php echo content_url() ?>/images/top-banner01.jpg" alt="パーテーションストア PARTITION STORE 全国の建設会社様・工務店様・設計会社様へ 詳しくはこちら"></a>
 			<h4>販売代理店様は随時募集しております</h4>
 			<p>施工マニュアルで安心施工を実現</p>
 		</div>
-	</section>
+	</section>-->
 	
 	<section id="example02">
 		<div class="container">
