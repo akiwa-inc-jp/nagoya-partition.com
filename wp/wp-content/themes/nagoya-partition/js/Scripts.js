@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var hh = 90;
 	var curr = 0;
-	var ln = 4;
+	var ln = 3;
 	var prop_none = {
 		'display':'none','z-index':'0'
 	};
@@ -17,7 +17,7 @@ $(document).ready(function() {
 		$("figure li").removeClass("active").eq(curr).addClass("active");
 		
 		//4番目のli要素の場合のみ#top01,#top02を表示しない
-		if(curr === 3 || curr === 4){
+		if(curr === 3){
 			$("figure #top01").css(prop_none);
 			$("figure #top02").css(prop_none);
 		}else{

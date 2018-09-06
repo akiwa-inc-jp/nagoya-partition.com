@@ -25,7 +25,7 @@ get_header(); ?>
 			<li style="background-image:url(<?php echo content_url() ?>/images/slide02.jpg)"></li>
 			<li style="background-image:url(<?php echo content_url() ?>/images/slide03.jpg)"></li>
 			<!--<li><a href="#reuse" style="background-image:url(<?php echo content_url() ?>/images/slide-reuse.jpg)">業界初！！！　名古屋パーテーションのリユース</a></li>-->
-			<li><a href="#PS-banner" style="background-image:url(<?php echo content_url() ?>/images/top-banner04.jpg)">パーテーションストア 施工型パーテーションが1パネル14,500円から 詳しくはこちら</a></li>
+			<!--<li><a href="#PS-banner" style="background-image:url(<?php echo content_url() ?>/images/top-banner04.jpg)">パーテーションストア 施工型パーテーションが1パネル14,500円から 詳しくはこちら</a></li>-->
 			<li style="background-image:url(<?php echo content_url() ?>/images/summer-campain.png)"></li>
 		</ul>
 	</figure>
