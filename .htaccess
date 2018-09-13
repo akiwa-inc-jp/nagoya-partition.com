@@ -1,4 +1,5 @@
 RewriteEngine on
+
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
@@ -7,6 +8,20 @@ RewriteRule ^(.*)$ https://nagoya-partition.com/$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^.*/index\.(html)
 RewriteRule ^(.*)index\.(html)$ https://nagoya-partition.com/$1 [R=301,L]
+
+RewriteRule ^lp/(.*) https://nagoya-partition.com [R=301,L]
+
+RewriteRule ^contact.html https://nagoya-partition.com/contact/ [R=301,L]
+
+RewriteRule ^sekouhouhou.html https://nagoya-partition.com/sekoustaff/ [R=301,L]
+
+RewriteRule ^contact_partner.html https://nagoya-partition.com/contact/ [R=301,L]
+
+RewriteRule ^ホームページセクション/(.*) https://nagoya-partition.com [R=301,L]
+
+RewriteRule ^sekoujirei.pdf https://nagoya-partition.com/wp/wp-content/downloads/sekoujirei.pdf [R=301,L]
+
+RewriteRule ^gc_partner_sample-01.pdf https://nagoya-partition.com/wp/wp-content/downloads/gc_partner_sample-01.pdf [R=301,L]
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
