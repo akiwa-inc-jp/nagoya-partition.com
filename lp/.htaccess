@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule ^(.*)$ https://nagoya-partition.com/$1 [R=301,L]

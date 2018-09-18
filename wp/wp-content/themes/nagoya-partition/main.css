@@ -200,8 +200,7 @@ header {
             background: #F60; }
     header .container nav.active {
       filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-      opacity: 1;
-      z-index: 1000; }
+      opacity: 1; }
       header .container nav.active a {
         height: 40px;
         -moz-transform: scale(1, 1);
@@ -264,7 +263,8 @@ main {
           opacity: 0.8; }
       main figure ul li.active {
         filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-        opacity: 1; }
+        opacity: 1;
+        z-index: 1000; }
       main figure ul li:nth-child(4).active, main figure ul li:nth-child(5).active {
         z-index: 1; }
   main .toiawase-banner {

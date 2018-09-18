@@ -574,6 +574,23 @@ function content_url_echo_php( $atts ){
 add_shortcode( 'content_url_echo', 'content_url_echo_php' );
 
 /**
+* Contact Form 7 内でwp-contentのURLを呼び出します。
+*/
+function the_get_content_url(){
+  ob_start();
+	get_template_part('template-parts/echo/wp-content-url'); // template-parts/exho/wp-content-url.phpを読みこみ
+  return ob_get_clean();
+}
+wpcf7_add_shortcode("get_content_url","the_get_content_url");
+
+
+function my_update_styles( $styles ) {
+    $mtime = filemtime( get_stylesheet_directory() . '/style.css' );
+    $styles->default_version = $mtime;
+}
+add_action( 'wp_default_styles', 'my_update_styles' );
+
+/**
  * Implement the Custom Header feature.
  */
 require get_parent_theme_file_path( '/inc/custom-header.php' );
