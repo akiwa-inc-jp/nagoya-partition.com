@@ -1,0 +1,1 @@
+# nagoya-partition.com
